@@ -2,14 +2,12 @@
   "name": "aegis",
   "version": "1.0.0",
   "description": "Backend for MMORPG Project",
-  "main": "index.js",
+  "main": "server.js",
   "repository": "https://github.com/codyroberts/Aegis.git",
   "author": "Cody Roberts",
   "license": "MIT",
   "dependencies": {
-    "@types/ws": "^7.2.2",
-    "tslint": "^6.1.0",
-    "typescript": "^3.8.3",
+    "@types/ws": "^7.2.3",
     "ws": "^7.2.3"
   },
   "scripts": {
@@ -17,5 +15,9 @@
     "start": "node dist/server.js",
     "dev": "tsc -w"
   },
-  "type": "module"
+  "type": "module",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "typescript": "^3.8.3"
+  }
 }
